@@ -4,11 +4,9 @@ import { View, Text, StyleSheet } from "react-native";
 export default function Presentacion() {
   return (
     <View style={styles.container}>
-      <View style={styles.card}>
         <Text style={styles.nombre}>Lorenzo Gallardo</Text>
         <Text style={styles.curso}>Sexto año ProA</Text>
       </View>
-    </View>
   );
 }
 
