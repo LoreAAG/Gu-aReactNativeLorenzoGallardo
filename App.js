@@ -5,6 +5,7 @@ import Presentacion from './components/Presentacion.js';
 import Perfil from './components/Perfil.js';
 import BotonCustom from './components/BotonCustom.js'
 import Boton from './components/Boton.js'
+import ScrollFrases from './components/ScrollFrases';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Perfil/>
       <BotonCustom/>
       <Boton/>
+        <ScrollFrases/>
     </View>
   );
 }
