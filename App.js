@@ -6,6 +6,8 @@ import Perfil from './components/Perfil.js';
 import BotonCustom from './components/BotonCustom.js'
 import Boton from './components/Boton.js'
 import ScrollFrases from './components/ScrollFrases';
+import TarjetaJuegos from './components/TarjetaJuegos.js'
+import StatusBarra from './components/StatusBarra.js'
 
 export default function App() {
   return (
@@ -15,7 +17,11 @@ export default function App() {
       <Perfil/>
       <BotonCustom/>
       <Boton/>
-        <ScrollFrases/>
+      <ScrollFrases/>
+      <View style={styles.container}>
+      <TarjetaJuegos/>
+    </View>
+    <StatusBarra/>
     </View>
   );
 }
